@@ -4,7 +4,10 @@
 
 #### Contact :telephone_receiver: +48511919797 :email: jurand@interia.pl
 
+```diff
++
 ### My training rooms and small projects
+```
 
 - [www.codewars.com](https://www.codewars.com/users/Jurand76).
 - [challengerocket.com](https://challengerocket.com/)
