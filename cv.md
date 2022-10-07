@@ -65,7 +65,7 @@
 
 ### Education
 
-Silesian University - Automation and Robotics (from September 1995 to June 2000 | Poland)
+Silesian University - Automation and Robotics (from September 1995 to June 2000, Poland)
 
 ### Languages
 
