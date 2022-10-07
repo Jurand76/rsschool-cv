@@ -1,20 +1,39 @@
 # Tomasz Jarnot
 
-## Contact:
+![This is an image](https://tomekjarnot.pl/photo.jpg)
 
-### phone : +48511919797 mail: jurand@interia.pl
+## Contact: ### phone : +48511919797 mail: jurand@interia.pl
 
-###### The smallest heading
+###### My training rooms and small projects
 
-1. First Name, Last Name (real ones)
-2. Contact Info (add several ways to contact you)
-3. Summary (your goal, wishes, reveal what is important for you, what do you want and why.
-   Some kind of self-presentation. In case of lack of experience Junior Developer sells his/her potential, his/her passion and ability to learn fast. You shouldn't think that everybody is going to teach you when you come to the workplace . Rather being a Junior means always
-   learning new things from everywhere etc.).
-4. Skills (e.g. programming languages, frameworks, methodologies, version control, tools etc.)
-5. Code examples (LATEST)
-6. Experience (for a Junior Dev it means all kinds of experience: coding tests, projects from courses,
-   freelance projects - wherever they had the opportunity to demonstrate skills they have.
-   Also it would be awesome if you add links to source code)
-7. Education (including courses, seminars, lectures, online learning)
-8. English (elaborate on what kind of practice you had, if any, how long it lasted and so on)
+www.codewars.com[GitHub Pages](https://www.codewars.com/users/Jurand76).
+challengerocket.com[GitHub Pages](https://challengerocket.com/)
+Memory Game - Javascript project / AI Graphics[GitHub Pages](http://tomekjarnot.pl/games/memorygame)
+Canvas - Javascript tests of graphics[GitHub Pages](http://tomekjarnot.pl/canvas/canvas.html)
+Asteroids Game - Javascript project / Canvas animation[GitHubPages](http://tomekjarnot.pl/games/asteroids)
+
+###### Certificates
+
+EPAM .NET Development[GitHub Pages](https://tomekjarnot.pl/epam_net.jpg)
+AWS Cloud Practitioner Essentials[GitHub Pages](https://tomekjarnot.pl/aws.jpg)
+
+###### Skills
+
+HTML5
+CSS3
+GIT
+Figma
+JavaScript
+SQL
+C#
+Adobe Photoshop
+Emmerson DeltaV
+
+###### Education
+
+Silesian University - Automation and Robotics
+from September 1995 to June 2000 | Poland
+
+###### Languages
+
+Polish, English (B2), Russian
