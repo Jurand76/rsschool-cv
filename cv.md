@@ -14,8 +14,8 @@
 
 #### Certificates
 
--EPAM .NET Development[GitHub Pages](https://tomekjarnot.pl/epam_net.jpg)
--AWS Cloud Practitioner Essentials[GitHub Pages](https://tomekjarnot.pl/aws.jpg)
+- EPAM .NET Development[GitHub Pages](https://tomekjarnot.pl/epam_net.jpg)
+- AWS Cloud Practitioner Essentials[GitHub Pages](https://tomekjarnot.pl/aws.jpg)
 
 #### Skills
 
