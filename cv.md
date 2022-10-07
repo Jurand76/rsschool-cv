@@ -2,7 +2,7 @@
 
 ![This is an image](https://tomekjarnot.pl/photo.jpg)
 
-#### Contact - phone: +48511919797, mail: jurand@interia.pl
+#### Contact :telephone_receiver: +48511919797 :email: jurand@interia.pl
 
 ### My training rooms and small projects
 
