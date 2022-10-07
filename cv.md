@@ -44,7 +44,8 @@
 
 ##### March 2002 - September 2006 | Poland
 
-Applications in DeltaV Emmerson Process Management software
+1. Applications in DeltaV Emmerson Process Management software
+2. Implementation of solutions at the factories
 
 #### Work for companies:
 
