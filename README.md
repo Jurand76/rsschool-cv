@@ -1,1 +1,1 @@
- https://Jurand76.github.io/rsschool-cv/cv
+https://jurand76.github.io/rsschool-cv/
