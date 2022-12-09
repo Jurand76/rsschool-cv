@@ -8,20 +8,14 @@ class Builder {
       this.result = parameter;
     }
   }
+
   plus() {
     for (let i = 0; i < arguments.length; i++) {
       this.result = this.result + arguments[i];
-      console.log(
-        "i = " +
-          i +
-          ", argument = +" +
-          arguments[i] +
-          ", result = " +
-          this.result
-      );
     }
     return this;
   }
+
   multiply(n) {
     let val = this.result;
     for (let i = 1; i < n; i++) {
@@ -29,6 +23,7 @@ class Builder {
     }
     return this;
   }
+
   get() {
     return this.result;
   }
@@ -45,14 +40,6 @@ class IntBuilder extends Builder {
   minus() {
     for (let i = 0; i < arguments.length; i++) {
       this.result = this.result - arguments[i];
-      console.log(
-        "i = " +
-          i +
-          ", argument = -" +
-          arguments[i] +
-          ", result = " +
-          this.result
-      );
     }
     return this;
   }
@@ -67,9 +54,9 @@ class IntBuilder extends Builder {
     return this;
   }
 
-  random(from, to) {
-    this.result = Math.round(Math.random() * (to - from)) + from;
-    return this;
+  static random(from, to) {
+    var output = Math.round(Math.random() * (to - from)) + from;
+    return output;
   }
 }
 
@@ -91,18 +78,28 @@ class StringBuilder extends Builder {
 // tests in console for IntBuilder
 
 var const1 = new IntBuilder(10);
+console.log("IntBuilder created: ");
 console.log(const1);
 var const2 = const1.plus(2, 3, 2);
+console.log(".plus(2,3,2) method output:");
 console.log(const2);
 var const3 = const2.minus(1, 2);
+console.log(".minus(1,4) method output:");
 console.log(const3);
 var const4 = const3.multiply(2);
+console.log(".multiply(2) method output:");
 console.log(const4);
 var const5 = const4.divide(4);
+console.log(".divide(4) method output:");
 console.log(const5);
 var const6 = const5.mod(3);
+console.log(".mod(3) method output:");
 console.log(const6);
+console.log(".get() method output:");
 console.log(const6.get());
+var const7 = IntBuilder.random(10, 100);
+console.log(".random(10,100) static method output:");
+console.log(const7);
 
 // tests in console for StringBuilder
 
