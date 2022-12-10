@@ -68,12 +68,43 @@ class IntBuilder extends Builder {
 // sub(from, n)             // leaves substring starting from and with length n;
 // get()                    // returns stored value;
 
-class StringBuilder extends Builder {
-  minus(n) {
-    this.result = this.result.slice(0, this.result.length - n);
-    return this;
-  }
+function StringBuilder(result) {
+  this.result = result;
+  Builder.constructor.apply(this);
 }
+
+StringBuilder.prototype = Object.create(Builder.prototype);
+
+StringBuilder.prototype.minus = function (n) {
+  this.result = this.result.slice(0, this.result.length - n);
+  return this;
+};
+
+StringBuilder.prototype.divide = function (n) {
+  this.result = this.result.slice(0, Math.floor(this.result.length / n));
+  return this;
+};
+
+StringBuilder.prototype.remove = function (text) {
+  let text_before = this.result;
+  for (let i = 0; i <= text_before.length - text.length; i++) {
+    if (text_before.slice(i, i + text.length) == text) {
+      text_before =
+        text_before.slice(0, i) +
+        text_before.slice(i + text.length, text_before.length);
+      i = i - text.length;
+    }
+  }
+  this.result = text_before;
+  return this;
+};
+
+StringBuilder.prototype.sub = function (from, how_many) {
+  let text_before = this.result;
+  text_before = text_before.slice(from, from + how_many);
+  this.result = text_before;
+  return this;
+};
 
 // tests in console for IntBuilder
 
@@ -104,14 +135,33 @@ console.log(const7);
 // tests in console for StringBuilder
 
 var str1 = new StringBuilder("Hello");
+console.log("StrBuilder created: ");
+console.log(str1);
 var str2 = str1.plus(" all", "!");
+console.log(".plus(' all', '!'):");
 console.log(str2);
 var str3 = str2.minus(4);
+console.log(".minus(4):");
 console.log(str3);
 var str4 = str3.multiply(3);
+console.log(".multiply(3):");
 console.log(str4);
+var str5 = str4.divide(4);
+console.log(".divide(4):");
+console.log(str5);
+var str6 = str5.remove("l");
+console.log(".remove('l'):");
+console.log(str6);
+var str7 = str6.sub(1, 1);
+console.log(".sub(1,1):");
+console.log(str7);
+var str8 = str7.get();
+console.log(".get():");
+console.log(str8);
 
-console.log(const4);
-console.log(str2.get());
-
-var display_result = document.getElementById("result_1");
+console.log(
+  "Chaining methods test: .plus(' all', '!').minus(4).multiply(3).get():"
+);
+var str10 = new StringBuilder("Hello");
+var str11 = str10.plus(" all", "!").minus(4).multiply(3).get();
+console.log(str11);
