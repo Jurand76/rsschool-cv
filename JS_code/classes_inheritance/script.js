@@ -115,7 +115,7 @@ var const2 = const1.plus(2, 3, 2);
 console.log(".plus(2,3,2) method output:");
 console.log(const2);
 var const3 = const2.minus(1, 2);
-console.log(".minus(1,4) method output:");
+console.log(".minus(1,2) method output:");
 console.log(const3);
 var const4 = const3.multiply(2);
 console.log(".multiply(2) method output:");
